@@ -37,18 +37,22 @@ header{
 
 #title{
   font-size: 4em;
+  margin-right: 1em;
   font-weight: bolder;
 }
 #subtitle{
+  margin-right: 2.8em;
   font-size: 1.5em;
 
 }
 
- h4{
+#bolder{
   text-align: center;
-  font-weight:bold;
+  font-weight:bolder;
   padding: 1.2em;
  }
+
+ 
 
  .ali-rigth{
   text-align: right;
@@ -57,8 +61,11 @@ header{
 
 @media (max-width: 600px) {
 
-  #title, #subtitle, p {
+  #title, #subtitle {
     text-align: center;
+    margin-right: 0;
   }
 
+}
  
+
